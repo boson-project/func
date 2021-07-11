@@ -64,6 +64,10 @@ type Function struct {
 
 	// Options to be set on deployed function (scaling, etc.)
 	Options Options
+
+	// Map of user-supplied labels
+	// Example: { "tier": "backend" }
+	Labels map[string]string
 }
 
 // NewFunction loads a Function from a path on disk. use .Initialized() to determine if

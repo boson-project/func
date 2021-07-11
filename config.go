@@ -120,6 +120,7 @@ type config struct {
 	Envs        Envs              `yaml:"envs"`
 	Annotations map[string]string `yaml:"annotations"`
 	Options     Options           `yaml:"options"`
+	Labels      map[string]string `yaml:"labels"`
 	// Add new values to the toConfig/fromConfig functions.
 }
 
@@ -221,6 +222,7 @@ func fromConfig(c config) (f Function) {
 		Envs:        c.Envs,
 		Annotations: c.Annotations,
 		Options:     c.Options,
+		Labels:      c.Labels,
 	}
 }
 
@@ -238,6 +240,7 @@ func toConfig(f Function) config {
 		Envs:        f.Envs,
 		Annotations: f.Annotations,
 		Options:     f.Options,
+		Labels:      f.Labels,
 	}
 }
 
