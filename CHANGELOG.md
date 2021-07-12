@@ -1,6 +1,13 @@
 # Change Log
 
 <a name="unreleased"></a>
+### [0.16.1](https://www.github.com/boson-project/func/compare/v0.16.0...v0.16.1) (2021-07-12)
+
+
+### Bug Fixes
+
+* closing stdout ([6f40b29](https://www.github.com/boson-project/func/commit/6f40b29d3e02193c51317a29737c20dc11730c5a))
+
 ## [0.16.0](https://www.github.com/boson-project/func/compare/v0.15.1...v0.16.0) (2021-06-23)
 
 
